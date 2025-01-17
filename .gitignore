@@ -1,0 +1,23 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore model and data files
+models/
+data/
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore system-specific files
+.DS_Store
+*.swp
+
+# Ignore large datasets (optional)
+data/raw/
